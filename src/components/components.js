@@ -50,12 +50,12 @@ export const LineItemModifier = styled.span`
   color: ${gray300};
 `
 export const Title = styled.h1`
-  font-size: 32px;
+  font-size: 38px;
 `
 export const Intro = styled.h2`
-  font-size: 24px;
+  font-size: 28px;
   a {
-    font-size: 24px;
+    font-size: 28px;
   }
 `
 export const SectionHeader = styled.h3`

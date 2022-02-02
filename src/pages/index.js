@@ -1,5 +1,6 @@
 import React, { useEffect, createRef } from "react"
 import { createGlobalStyle } from "styled-components"
+import { Helmet } from "react-helmet";
 
 import { background, fontColor, gray300 } from "../components/colors"
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
@@ -58,6 +59,17 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <GlobalStyle/>
+
+      <Helmet
+        title="Joe Czepil"
+        meta={[
+          {
+            name: 'description',
+            content: `Joe Czepil builds web apps from scratch. He is currently working on his own ventures
+              and doing freelance on the side`
+          }
+        ]}
+      />
 
       <Content>
         <div>

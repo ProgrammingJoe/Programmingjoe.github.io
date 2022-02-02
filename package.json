@@ -11,7 +11,8 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy": "gatsby build && gh-pages -d public -b main"
   },
   "dependencies": {
     "@fontsource/cabin": "^4.5.0",
@@ -37,5 +38,8 @@
     "react-helmet": "^6.1.0",
     "react-responsive-carousel": "^3.2.22",
     "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }

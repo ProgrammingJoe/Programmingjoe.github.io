@@ -1,7 +1,8 @@
 module.exports = {
+  pathPrefix: "/Programmingjoe.github.io",
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "PersonalSite2022",
+    siteUrl: "https://www.joeczepil.com",
+    title: "Joe Czepil",
   },
   plugins: [
     {
