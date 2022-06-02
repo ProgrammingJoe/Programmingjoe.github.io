@@ -93,16 +93,10 @@ const IndexPage = () => {
             <SectionHeader>// Now</SectionHeader>
             <List>
               <LineItem>
-                <Link href="https://site.spart.xyz/">
-                  Spart
+                <Link href="https://bard.social/" target="_blank" rel="noopener noreferrer">
+                  Bard
                 </Link>
-                <LineItemModifier>$30 MRR</LineItemModifier>
-              </LineItem>
-              <LineItem>
-                <Link href="https://muriel.io/">
-                  Muriel
-                </Link>
-                <LineItemModifier>In development</LineItemModifier>
+                <LineItemModifier>$50 MRR</LineItemModifier>
               </LineItem>
               <LineItem>
                 <LineItemText>Freelance</LineItemText>
@@ -117,12 +111,20 @@ const IndexPage = () => {
             <SectionHeader>// Past</SectionHeader>
             <List>
               <LineItem>
+                <LineItemText>Muriel</LineItemText>
+                <LineItemModifier>Developer</LineItemModifier>
+              </LineItem>
+              <LineItem>
                 <LineItemText>Certn</LineItemText>
                 <LineItemModifier>Full Stack Developer</LineItemModifier>
               </LineItem>
               <LineItem>
                 <LineItemText>GetSmart Solutions</LineItemText>
                 <LineItemModifier>Lead Product Developer</LineItemModifier>
+              </LineItem>
+              <LineItem>
+                <LineItemText>Liefbase</LineItemText>
+                <LineItemModifier>Developer</LineItemModifier>
               </LineItem>
               <LineItem>
                 <LineItemText>Global Relay</LineItemText>
@@ -146,12 +148,14 @@ const IndexPage = () => {
                 showThumbs={false}
                 axis="vertical"
             >
+                <Text color={gray300}>2022·05·30 Launched Bard's new branding</Text>
+                <Text color={gray300}>2022·04·01 Hired my first contractor for Bard</Text>
                 <Text color={gray300}>2022·01·04 Completed my first Blender 3D project</Text>
-                <Text color={gray300}>2021·11·13 Released embedded video support for Spart</Text>
                 <Text color={gray300}>2021·10·29 Left my job to pursue freelance and entrepreneurship</Text>
-                <Text color={gray300}>2021·04·05 Got my first paying Spart user</Text>
+                <Text color={gray300}>2021·06·30 Gimli joined the family!</Text>
+                <Text color={gray300}>2021·04·05 Got my first paying Bard user</Text>
                 <Text color={gray300}>2020·05·23 Started Muriel</Text>
-                <Text color={gray300}>2019·01·14 Launched Spart</Text>
+                <Text color={gray300}>2019·01·14 Launched Bard</Text>
             </Carousel>
           </CarouselWrapper>
 
@@ -166,7 +170,7 @@ const IndexPage = () => {
           <Text>
             I post some thoughts
             on <Link href="https://twitter.com/Programmingjoe" target="_blank" rel="noreferrer">Twitter</Link>, my
-            art on <Link href="https://site.spart.xyz/" target="_blank" rel="noreferrer">Spart</Link>, some
+            art on <Link href="https://bard.social/" target="_blank" rel="noreferrer">Bard</Link>, some
             other art on <Link href="https://dribbble.com/Programmingjoe" target="_blank" rel="noreferrer">Dribbble</Link>, and
             the occasional blog post
             on <Link href="https://medium.com/@Programmingjoe" target="_blank" rel="noreferrer">Medium</Link>.
