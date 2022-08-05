@@ -148,6 +148,7 @@ const IndexPage = () => {
                 showThumbs={false}
                 axis="vertical"
             >
+                <Text color={gray300}>2022·07·30 Bard reaches $50MRR</Text>
                 <Text color={gray300}>2022·05·30 Launched Bard's new branding</Text>
                 <Text color={gray300}>2022·04·01 Hired my first contractor for Bard</Text>
                 <Text color={gray300}>2022·01·04 Completed my first Blender 3D project</Text>
@@ -169,7 +170,7 @@ const IndexPage = () => {
         <Section>
           <Text>
             I post some thoughts
-            on <Link href="https://twitter.com/Programmingjoe" target="_blank" rel="noreferrer">Twitter</Link>, my
+            on <Link href="https://twitter.com/joeczepil" target="_blank" rel="noreferrer">Twitter</Link>, my
             art on <Link href="https://bard.social/" target="_blank" rel="noreferrer">Bard</Link>, some
             other art on <Link href="https://dribbble.com/Programmingjoe" target="_blank" rel="noreferrer">Dribbble</Link>, and
             the occasional blog post
