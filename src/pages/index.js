@@ -65,7 +65,7 @@ const IndexPage = () => {
         meta={[
           {
             name: 'description',
-            content: `Joe Czepil builds web apps from scratch. He is currently working on his own ventures
+            content: `Joe Czepil likes building things. He is currently working on his own ventures
               and doing freelance on the side`
           }
         ]}
@@ -75,7 +75,7 @@ const IndexPage = () => {
         <div>
           <Title>Joe Czepil</Title>
           <Intro>
-            I build web apps from scratch. I'm currently building my own ventures
+            I just like building things. I'm currently building my own ventures
             and doing freelance on the side but if you have a web app you want
             built, <Link href="mailto:joe@czepil.com">let's chat</Link>.
           </Intro>
@@ -86,22 +86,20 @@ const IndexPage = () => {
 
           <Section>
             <SectionHeader>// Credentials</SectionHeader>
-            <SectionText>Bachelor of Engineering, Business Minor, EIT, Dog Dad</SectionText>
+            <SectionText>Bachelor of Engineering, Business Minor, Dog Dad</SectionText>
           </Section>
  
           <Section>
             <SectionHeader>// Now</SectionHeader>
             <List>
               <LineItem>
-                <Link href="https://bard.social/" target="_blank" rel="noopener noreferrer">
-                  Bard
-                </Link>
-                <LineItemModifier>$50 MRR</LineItemModifier>
+                <LineItemText>Child Care Resource & Referral Software</LineItemText>
+                <LineItemModifier>Co-Founder</LineItemModifier>
               </LineItem>
               <LineItem>
                 <LineItemText>Freelance</LineItemText>
                 <Link href="mailto:joe@czepil.com">
-                  Available for more work
+                  What do you need done?
                 </Link>
               </LineItem>
             </List>
@@ -110,6 +108,14 @@ const IndexPage = () => {
           <Section>
             <SectionHeader>// Past</SectionHeader>
             <List>
+              <LineItem>
+                <LineItemText>
+                  <Link href="https://bard.social/" target="_blank" rel="noopener noreferrer">
+                    Bard
+                  </Link>
+                </LineItemText>
+                <LineItemModifier>$50 MRR · Solo Founder</LineItemModifier>
+              </LineItem>
               <LineItem>
                 <LineItemText>Muriel</LineItemText>
                 <LineItemModifier>Developer</LineItemModifier>
@@ -151,7 +157,6 @@ const IndexPage = () => {
                 <Text color={gray300}>2022·07·30 Bard reaches $50MRR</Text>
                 <Text color={gray300}>2022·05·30 Launched Bard's new branding</Text>
                 <Text color={gray300}>2022·04·01 Hired my first contractor for Bard</Text>
-                <Text color={gray300}>2022·01·04 Completed my first Blender 3D project</Text>
                 <Text color={gray300}>2021·10·29 Left my job to pursue freelance and entrepreneurship</Text>
                 <Text color={gray300}>2021·06·30 Gimli joined the family!</Text>
                 <Text color={gray300}>2021·04·05 Got my first paying Bard user</Text>
@@ -170,10 +175,7 @@ const IndexPage = () => {
         <Section>
           <Text>
             I post some thoughts
-            on <Link href="https://twitter.com/joeczepil" target="_blank" rel="noreferrer">Twitter</Link>, my
-            art on <Link href="https://bard.social/" target="_blank" rel="noreferrer">Bard</Link>, some
-            other art on <Link href="https://dribbble.com/Programmingjoe" target="_blank" rel="noreferrer">Dribbble</Link>, and
-            the occasional blog post
+            on <Link href="https://twitter.com/joeczepil" target="_blank" rel="noreferrer">Twitter</Link> and the occasional blog post
             on <Link href="https://medium.com/@Programmingjoe" target="_blank" rel="noreferrer">Medium</Link>.
             If you want to see my code, checkout
             my <Link href="https://github.com/ProgrammingJoe" target="_blank" rel="noreferrer">Github</Link> and if

@@ -44,6 +44,10 @@ export const LineItemText = styled.p`
   position: relative;
   display: inline;
   margin-right: 8px;
+
+  a {
+    margin-right: 0px;
+  }
 `
 export const LineItemModifier = styled.span`
   text-decoration: none;
