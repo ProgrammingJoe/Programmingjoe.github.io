@@ -94,7 +94,7 @@ const IndexPage = () => {
             <List>
               <LineItem>
                 <LineItemText>Child Care Resource & Referral Software</LineItemText>
-                <LineItemModifier>Co-Founder</LineItemModifier>
+                <LineItemModifier>Building Things</LineItemModifier>
               </LineItem>
               <LineItem>
                 <LineItemText>Freelance</LineItemText>
