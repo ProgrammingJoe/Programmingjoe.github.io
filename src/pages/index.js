@@ -93,8 +93,7 @@ const IndexPage = () => {
             <SectionHeader>// Now</SectionHeader>
             <List>
               <LineItem>
-                <LineItemText>Child Care Resource & Referral Software</LineItemText>
-                <LineItemModifier>Building Things</LineItemModifier>
+                <LineItemText>Thinking about what to build next</LineItemText>
               </LineItem>
               <LineItem>
                 <LineItemText>Freelance</LineItemText>
@@ -154,6 +153,8 @@ const IndexPage = () => {
                 showThumbs={false}
                 axis="vertical"
             >
+                <Text color={gray300}>2022·11·28 I started posting on Youtube</Text>
+                <Text color={gray300}>2022·08·27 I ended Bard to pursue new things</Text>
                 <Text color={gray300}>2022·07·30 Bard reaches $50MRR</Text>
                 <Text color={gray300}>2022·05·30 Launched Bard's new branding</Text>
                 <Text color={gray300}>2022·04·01 Hired my first contractor for Bard</Text>
@@ -174,10 +175,12 @@ const IndexPage = () => {
       <div style={{ maxWidth: '850px' }}>
         <Section>
           <Text>
-            I post some thoughts
-            on <Link href="https://twitter.com/joeczepil" target="_blank" rel="noreferrer">Twitter</Link> and the occasional blog post
+            I post tutorials and workshops
+            on <Link href="https://www.youtube.com/channel/UCzArv1iAxtLAex_l4yldNNw" target="_blank" rel="noreferrer">Youtube</Link>, some thoughts
+            on <Link href="https://twitter.com/joeczepil" target="_blank" rel="noreferrer">Twitter</Link>, and the occasional blog post
             on <Link href="https://medium.com/@Programmingjoe" target="_blank" rel="noreferrer">Medium</Link>.
-            If you want to see my code, checkout
+            If you want to keep up to date with what I'm doing, subscribe to
+            my <Link href="https://joeczepil.substack.com/" target="_blank" rel="noreferrer">Substack</Link>. If you want to see my code, checkout
             my <Link href="https://github.com/ProgrammingJoe" target="_blank" rel="noreferrer">Github</Link> and if
             you reeeally want to see
             my <Link href="https://www.linkedin.com/in/joeczepil/" target="_blank" rel="noreferrer">Linkedin</Link>, then
